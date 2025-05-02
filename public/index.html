@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest Marketing Infographic</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8fa;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            color: #0b6e76;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .infographic {
+            position: relative;
+            padding-left: 40px;
+        }
+
+        .timeline {
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background-color: #0b6e76;
+        }
+
+        .point {
+            display: flex;
+            margin-bottom: 60px;
+            position: relative;
+        }
+
+        .number-box {
+            position: relative;
+            width: 80px;
+            height: 80px;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+
+        .number-bg {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: #cce5ea;
+            z-index: 1;
+        }
+
+        .number {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #0b6e76;
+            color: white;
+            font-size: 2.5rem;
+            font-weight: bold;
+            z-index: 2;
+            top: 0;
+            left: 0;
+        }
+
+        .connector {
+            position: absolute;
+            width: 20px;
+            height: 4px;
+            background-color: #0b6e76;
+            left: -40px;
+            top: 40px;
+        }
+
+        .connector::before {
+            content: '';
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            background-color: #0b6e76;
+            border: 2px solid #f0f8fa;
+            box-sizing: border-box;
+            left: -8px;
+            top: -6px;
+        }
+
+        .content {
+            flex-grow: 1;
+        }
+
+        .content h3 {
+            color: #0b6e76;
+            margin-top: 0;
+            font-size: 1.3rem;
+        }
+
+        .content p {
+            line-height: 1.5;
+            font-size: 0.95rem;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .screenshot-btn {
+            background-color: #0b6e76;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .screenshot-btn:hover {
+            background-color: #094c52;
+        }
+
+        @media (max-width: 600px) {
+            .point {
+                flex-direction: column;
+            }
+            
+            .number-box {
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="capture">
+        <header>
+            <h1>Harnessing Infographics for Effective Pinterest Marketing</h1>
+        </header>
+        
+        <div class="infographic">
+            <div class="timeline"></div>
+            
+            <div class="point">
+                <div class="connector"></div>
+                <div class="number-box">
+                    <div class="number-bg"></div>
+                    <div class="number">1</div>
+                </div>
+                <div class="content">
+                    <h3>Enhancing Visual Appeal</h3>
+                    <p>Infographics leverage visually appealing designs, which can capture users' attention quickly on Pinterest's image-centric platform. This visual aspect can lead to increased engagement and higher pin rates.</p>
+                </div>
+            </div>
+            
+            <div class="point">
+                <div class="connector"></div>
+                <div class="number-box">
+                    <div class="number-bg"></div>
+                    <div class="number">2</div>
+                </div>
+                <div class="content">
+                    <h3>Simplifying Complex Information</h3>
+                    <p>Infographics simplify complex data and concepts into digestible visual formats. This is particularly useful for e-commerce brands or service providers looking to explain products or services quickly.</p>
+                </div>
+            </div>
+            
+            <div class="point">
+                <div class="connector"></div>
+                <div class="number-box">
+                    <div class="number-bg"></div>
+                    <div class="number">3</div>
+                </div>
+                <div class="content">
+                    <h3>Boosting Brand Awareness</h3>
+                    <p>Consistent use of infographics helps in building brand identity. By using specific colors, fonts, and styles, brands can create a distinct visual language that resonates with users and enhances recall.</p>
+                </div>
+            </div>
+            
+            <div class="point">
+                <div class="connector"></div>
+                <div class="number-box">
+                    <div class="number-bg"></div>
+                    <div class="number">4</div>
+                </div>
+                <div class="content">
+                    <h3>Encouraging Shares and Saves</h3>
+                    <p>Infographics are highly shareable content; they encourage users to save, pin, or share them due to their informative nature. This can lead to organic reach and visibility on Pinterest.</p>
+                </div>
+            </div>
+            
+            <div class="point">
+                <div class="connector"></div>
+                <div class="number-box">
+                    <div class="number-bg"></div>
+                    <div class="number">5</div>
+                </div>
+                <div class="content">
+                    <h3>Driving Traffic to Websites</h3>
+                    <p>Infographics can include call-to-actions (CTAs) linking back to your website or landing page, facilitating the conversion of Pinterest users into website visitors, thus driving traffic effectively.</p>
+                </div>
+            </div>
+            
+            <div class="point">
+                <div class="connector"></div>
+                <div class="number-box">
+                    <div class="number-bg"></div>
+                    <div class="number">6</div>
+                </div>
+                <div class="content">
+                    <h3>Leveraging SEO Benefits</h3>
+                    <p>When properly tagged with keywords and descriptions, infographics can enhance SEO on Pinterest. This can improve discoverability, making it easier for users interested in specific topics to find your pins.</p>
+                </div>
+            </div>
+            
+            <div class="point">
+                <div class="connector"></div>
+                <div class="number-box">
+                    <div class="number-bg"></div>
+                    <div class="number">7</div>
+                </div>
+                <div class="content">
+                    <h3>Creating Educational Content</h3>
+                    <p>Infographics can serve as educational tools or tutorials, providing value to your audience. This type of informative content can establish authority in your niche and attract a loyal following.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="btn-container">
+            <button id="screenshot-btn" class="screenshot-btn">Take Screenshot</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('screenshot-btn').addEventListener('click', async function() {
+            try {
+                const response = await fetch('/api/screenshot', {
+                    method: 'POST'
+                });
+                
+                if (response.ok) {
+                    const blob = await response.blob();
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'pinterest-marketing-infographic.png';
+                    document.body.appendChild(a);
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                    document.body.removeChild(a);
+                } else {
+                    alert('Failed to generate screenshot');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('An error occurred while generating the screenshot');
+            }
+        });
+    </script>
+</body>
+</html>
